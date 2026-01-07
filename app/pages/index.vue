@@ -11,8 +11,8 @@ const userUrl = `https://github.com/${user.username}`
 
 useHead({
   link: [
-    { rel: 'icon', href: '/favicon.png' },
-    { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+    { rel: 'icon', href: '/logo.png' },
+    { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' },
     { rel: 'alternate', type: 'application/rss+xml', title: `${user.name}'s recent pull requests`, href: '/feed.xml' },
   ],
 })
